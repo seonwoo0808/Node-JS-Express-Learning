@@ -3,7 +3,7 @@
 
 const express = require("express");
 const app = express();
-
+const bodyParser = require("body-parser");
 app.set("views", "./app/src/views");
 app.set("view engine", "ejs");
 
